@@ -1,0 +1,127 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+  
+h1 {
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: 72px;
+  color: white;
+  font-weight: 800;
+}
+  
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+
+#titre{
+  margin-bottom: 70px;
+}
+  
+.banner {
+  padding: 80px 0;
+  margin: 0;
+  height: 400px;
+  background-image: url('fond\ d\'écran.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+  
+#banner-p {
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+  
+.btn-white {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 20px 50px;
+  font-family: 'Stick No Bills', sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  margin: 50px;
+}
+  
+.container {
+  width: 900px;
+  margin: 50px auto;
+  text-align: center;
+}
+  
+.card-black {
+  background-color: black;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  margin: 30px;
+  text-align: justify;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+  
+.card-black-video {
+  height: 180px;
+  width: 100%;
+}
+  
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+  padding: 10px 0;
+}
+
+.clients{
+  padding: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.container1{
+  background-color: white;
+  color: black;
+  padding: 80px;
+}
+
+#client {
+  height: auto;
+  display: inline;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.footer {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logos img{
+  height: 50px;
+  width: 50px;
+}
+
+.logo_hover:hover{
+  opacity: 0.7;
+}
+
+
+  
